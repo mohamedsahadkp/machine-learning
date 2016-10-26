@@ -3,6 +3,7 @@
     Iris dataset is flower dataset, ref : https://en.wikipedia.org/wiki/Iris_flower_data_set) 
     We used DecisionTreeClassifier and KNeighborsClassifier algorithm for classification. """
 
+from __future__ import division
 from sklearn import datasets
 iris = datasets.load_iris()
 
@@ -26,7 +27,15 @@ prediction = data.predict(feature_test)
 #print prediction
 #print label_test
 
-from sklearn.metrics import accuracy_score
-print accuracy_score(label_test, prediction)
+# from sklearn.metrics import accuracy_score
+# print accuracy_score(label_test, prediction)
+
+i = 0
+for p, t in zip(enumerate(prediction), enumerate(label_test)):
+    if p == t:
+        i = i + 1
+
+accuracy = i / len(label_test)
+print accuracy
 
 
