@@ -1,3 +1,3 @@
-# ml-scikit-learn
+# machine-learning
 
-Machine learning algorithms implementation using sklearn(scikit-learn.org) and tensorflow
+Implementation of machine-learning algorithms using sklearn(scikit-learn.org) and tensorflow
