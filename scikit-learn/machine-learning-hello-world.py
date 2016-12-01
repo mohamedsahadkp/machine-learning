@@ -6,6 +6,9 @@
 
 """ features are weight,texture 
     label are apple, orange """
+
+""" sudo apt-get install python-sklearn
+    pip install -U sklearn """
  
 from sklearn import tree
 #features = [[140, "smooth"], [130, "smooth"], [150,"bumpy"], [170, "bumby"]]
