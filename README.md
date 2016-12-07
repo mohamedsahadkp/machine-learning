@@ -2,18 +2,15 @@
 
 Code examples for some popular machine learning algorithms, using TensorFlow and sklearn(scikit-learn.org) libraries. This tutorial is designed to easily dive into TensorFlow and sklearn through examples.
 
-#### 1 - Introduction
-##### TensorFlow
+
+#### TensorFlow
 - Hello World ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/tensorflow/tensorflow-hello-world.py))
 
-##### sklearn
-- Hello World ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/machine-learning-hello-world.py))
-
-#### 2 - Basic Classifiers
-##### TensorFlow
 - Image Classifier ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/tensorflow/tensorflow-image-classifier.py))
 
-##### sklearn
+#### sklearn
+- Hello World ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/machine-learning-hello-world.py))
+
 - K Nearest Neighbor ([code]())
 
 - Linear Regression ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/linear-regression.py))
