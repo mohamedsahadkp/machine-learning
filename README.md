@@ -11,7 +11,7 @@ Code examples for some popular machine learning algorithms, using TensorFlow and
 #### sklearn
 - Hello World ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/machine-learning-hello-world.py))
 
-- K Nearest Neighbor ([code]())
+- K Nearest Neighbor ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/k-neighbors-classifier.py))
 
 - Linear Regression ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/linear-regression.py))
 
