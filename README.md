@@ -5,8 +5,9 @@ Code examples for some popular machine learning algorithms, using TensorFlow and
 #### 1 - Introduction
 ##### TensorFlow
 - Hello World ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/tensorflow/tensorflow-hello-world.py))
+
 ##### sklearn
-- Hello World ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/1%20-%20Introduction/helloworld.py))
+- Hello World ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/machine-learning-hello-world.py))
 
 #### 2 - Basic Classifiers
 ##### TensorFlow
