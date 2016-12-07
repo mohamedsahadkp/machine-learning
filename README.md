@@ -9,9 +9,17 @@ Code examples for some popular machine learning algorithms, using TensorFlow and
 - Hello World ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/1%20-%20Introduction/helloworld.py))
 
 #### 2 - Basic Classifiers
-- Nearest Neighbor ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/2%20-%20Basic%20Classifiers/nearest_neighbor.ipynb)) ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2%20-%20Basic%20Classifiers/nearest_neighbor.py))
-- Linear Regression ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/2%20-%20Basic%20Classifiers/linear_regression.ipynb)) ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2%20-%20Basic%20Classifiers/linear_regression.py))
-- Logistic Regression ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/2%20-%20Basic%20Classifiers/logistic_regression.ipynb)) ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2%20-%20Basic%20Classifiers/logistic_regression.py))
+##### TensorFlow
+- Image Classifier ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/tensorflow/tensorflow-image-classifier.py))
+
+##### sklearn
+- K Nearest Neighbor ([code]())
+
+- Linear Regression ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/linear-regression.py))
+
+- DecisionTreeClassifier([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/decision-tree-classifier.py))
+
+- MyClassifier - Build a classifier from the scratch ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/my-classifier.py))
 
 ## Dependencies
 ```
