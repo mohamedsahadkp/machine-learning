@@ -1,4 +1,4 @@
-# machine-learning
+# Machine Learning
 
 Code examples for some popular machine learning algorithms, using TensorFlow and sklearn(scikit-learn.org) libraries. This tutorial is designed to easily dive into TensorFlow and sklearn through examples.
 
