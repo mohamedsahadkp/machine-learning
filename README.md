@@ -13,6 +13,8 @@ Code examples for some popular machine learning algorithms, using TensorFlow and
 
 - K Nearest Neighbor ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/k-neighbors-classifier.py))
 
+- Naive Bayse Classifier ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/naive-bayse-classifier.py))
+
 - Linear Regression ([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/linear-regression.py))
 
 - DecisionTreeClassifier([code](https://github.com/mohamedsahadkp/machine-learning/blob/master/scikit-learn/decision-tree-classifier.py))
