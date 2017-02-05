@@ -1,16 +1,17 @@
 
 
 
-import numpy from *
+from numpy import *
 
 
-def findError(b, m, trainigData):
-    totalError = 0
-    for i in range(0, len(trainigData)):
-        x = trainigData[i, 0]
-        y = trainigData[i, 1]
-        totalError += (y - ((m * x) +b) **2
-    return totalError / float(len(trainigData))
+# def findError(b, m, trainigData):
+#     totalError = 0
+#     for i in range(0, len(trainigData)):
+#         x = trainigData[i, 0]
+#         y = trainigData[i, 1]
+#         totalError += (y - ((m * x) +b) **2
+
+#     return (totalError / float(len(trainigData)))
 
 def gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate, trainigData):
     m = initalSlop
@@ -24,19 +25,26 @@ def gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate
 
 def gradientDecsentSteps(m , b, learingRate, trainigData):
 
-    initalM = 0
-    initalB = 0
-    for i in range(0, len(trainigData)):
+    mGradient = 0
+    bGradient = 0
+    numberOfTrainingData = len(trainigData)
+    N = float(numberOfTrainingData)
+    for i in range(0, numberOfTrainingData):
+        x = trainigData[i, 0]
+        y = trainigData[i, 1]
+
+        mGradient += - ((2 / N) * x * (y - ((m * x) + b)))
+        bGradient += - ((2 / N) * (y - (m * x + b)))
+
+    newMGradient = m - (learingRate * mGradient)
+    newBGradient = b - (learingRate * bGradient)
+    return [newMGradient, newBGradient]
         
-
-
-
 def run():
     #Step 1 : Read trainig data
-    trainigData = genfromtxt('data.csv', delimeter=",")
+    trainigData = genfromtxt('../resource/data/student-study-mark.csv', delimiter=",")
 
     #Step 2 : Define hyperparameter
-
     learingRate = 0.001
     numberOfIteration = 1000
     
@@ -44,15 +52,10 @@ def run():
     initalYIntercept = 0
     #m
     initalSlop = 0
+
+    gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate, trainigData)
    
 
-
-
-
-
-
-
-
-if __name__ == ___main___:
-    run(): 
+if __name__ == '__main__':
+    run()
 
