@@ -1,6 +1,6 @@
- """ 
-    Linear regression to make prediction on life expectancy from body mass index (BMI) from birth
-    """
+ 
+#Linear regression to make prediction on life expectancy from body mass index (BMI) from birth
+
 
 # TODO: Add import statements
 import pandas as pd
