@@ -3,15 +3,15 @@
 
 from numpy import *
 
-
-# def findError(b, m, trainigData):
-#     totalError = 0
-#     for i in range(0, len(trainigData)):
-#         x = trainigData[i, 0]
-#         y = trainigData[i, 1]
-#         totalError += (y - ((m * x) +b) **2
-
-#     return (totalError / float(len(trainigData)))
+def findError(b, m, trainigData):
+    totalError = 0
+    for i in range(0, len(trainigData)):
+        x = trainigData[i, 0]
+        y = trainigData[i, 1]
+        totalError = totalError + (y - ((m * x) + b)) **2
+    
+    print totalError
+    return (totalError / float(len(trainigData)))
 
 def gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate, trainigData):
     m = initalSlop
@@ -45,7 +45,7 @@ def run():
     trainigData = genfromtxt('../resource/data/student-study-mark.csv', delimiter=",")
 
     #Step 2 : Define hyperparameter
-    learingRate = 0.001
+    learingRate = 0.0001
     numberOfIteration = 1000
     
     #b
@@ -53,8 +53,10 @@ def run():
     #m
     initalSlop = 0
 
-    gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate, trainigData)
-   
+    print "Starting gradient descent at b = {0}, m = {1}, error = {2}".format(initalYIntercept, initalSlop, findError(initalYIntercept, initalSlop, trainigData))
+    print "Running..."
+    [b, m] = gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate, trainigData)
+    print "After {0} iterations b = {1}, m = {2}, error = {3}".format(numberOfIteration, b, m, findError(b, m, trainigData))
 
 if __name__ == '__main__':
     run()
