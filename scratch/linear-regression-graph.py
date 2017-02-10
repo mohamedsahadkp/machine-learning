@@ -1,6 +1,6 @@
- """ Dependencies
-   sudo pip install matplotlib
-   sudo apt-get install python-tk """
+#  """ Dependencies
+#    sudo pip install matplotlib
+#    sudo apt-get install python-tk """
 
 import matplotlib.pyplot as plt
 import pandas as pd

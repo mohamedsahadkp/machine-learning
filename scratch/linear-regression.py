@@ -1,6 +1,5 @@
 
-
-
+from __future__ import division
 from numpy import *
 
 def findError(b, m, trainigData):
@@ -8,10 +7,10 @@ def findError(b, m, trainigData):
     for i in range(0, len(trainigData)):
         x = trainigData[i, 0]
         y = trainigData[i, 1]
-        totalError = totalError + (y - ((m * x) + b)) **2
-    
-    print totalError
-    return (totalError / float(len(trainigData)))
+        totalError += ((y - (m * x + b)) ** 2)
+        print totalError
+
+    return totalError / float(len(trainigData))
 
 def gradientDecsent(initalYIntercept, initalSlop, numberOfIteration, learingRate, trainigData):
     m = initalSlop
