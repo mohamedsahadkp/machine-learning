@@ -1,0 +1,8 @@
+title: Machine Learning
+description: Implement machine learning algorithms using tensorflow and scikit-learnCode examples for some popular machine learning algorithms, using TensorFlow and sklearn(scikit-learn.org) libraries. This tutorial is designed to easily dive into TensorFlow and sklearn through examples.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
